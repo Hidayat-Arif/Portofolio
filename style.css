@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: 'MinecraftFont';
-    src: url("font/minecraftfont.ttf") format('woff2');
+    src: url("minecraftfont.ttf") format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -109,7 +109,7 @@ section:nth-child(even) {
 }
 
 .home-background {
-    background: url('image/minecraft_bg.jpg') no-repeat center center/cover;
+    background: url('minecraft_bg.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -152,7 +152,7 @@ section:nth-child(even) {
 }
 
 #skills {
-    background: url('image/bookshelf_bg.jpg') no-repeat center center/cover;
+    background: url('bookshelf_bg.jpg') no-repeat center center/cover;
     padding: 100px 15%;
 }
 
@@ -250,7 +250,7 @@ section:nth-child(even) {
 #contact {
     text-align: center;
     padding: 200px 0;
-    background: url('image/footer_bg.jpg') no-repeat center center/cover;
+    background: url('footer_bg.jpg') no-repeat center center/cover;
 
 }
 
@@ -289,14 +289,14 @@ footer {
         gap: 15px;
         width: 100%;
         text-align: center;
-        display: none; /* Default disembunyikan */
+        display: none; 
     }
 
     .navbar .menu.active {
-        display: flex; /* Muncul ketika tombol hamburger diklik */
+        display: flex; 
     }
 
-    /* Tombol hamburger */
+    
     .hamburger {
         display: block;
         cursor: pointer;
